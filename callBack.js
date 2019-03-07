@@ -3,12 +3,10 @@ var input = [
   { x: 12, y: 5 },
   { x: 8, y: 15 }
 ];
+
 var result = input.map(obj => {
 
-
-
-return Math.sqrt((obj['x'] * obj['x']) + (obj['y'] * obj['y']));
-
+  return Math.sqrt((obj['x'] * obj['x']) + (obj['y'] * obj['y']));
 
 });
 
